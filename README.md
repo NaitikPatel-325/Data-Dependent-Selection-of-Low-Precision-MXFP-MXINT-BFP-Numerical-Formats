@@ -57,7 +57,7 @@ Group7_4bit_Dataset-C/
 ├── X_cal.npy
 ├── X_cal.txt
 ├── Algo-1/
-│   └── algo1_block_importance.ipynb
+│   └── block-immportance-selector (1).ipynb
 ├── Algo-2/
 │   ├── algo2_columnwise_k.ipynb
 │   ├── algo2_topk_masks.ipynb
@@ -101,7 +101,7 @@ X_cal = np.load("../X_cal.npy")
 Run these commands from the project root. Each notebook is executed with its own folder as the working directory, and outputs are saved in place.
 
 ```bash
-jupyter nbconvert --to notebook --execute --inplace Algo-1/algo1_block_importance.ipynb
+jupyter nbconvert --to notebook --execute --inplace "Algo-1/block-immportance-selector (1).ipynb"
 jupyter nbconvert --to notebook --execute --inplace Algo-2/algo2_columnwise_k.ipynb
 jupyter nbconvert --to notebook --execute --inplace Algo-2/algo2_topk_masks.ipynb
 jupyter nbconvert --to notebook --execute --inplace Algo-2/algo2_generic_feature_union.ipynb
@@ -140,7 +140,7 @@ Re-run the configuration cell before loading the data.
 
 ### Algorithm 1 · Block importance
 
-[Open notebook](Algo-1/algo1_block_importance.ipynb)
+[Open notebook](Algo-1/block-immportance-selector%20%281%29.ipynb)
 
 Assign importance using squared weights multiplied by calibration-row energy. Rank the 32-weight blocks and retain enough blocks to capture **50% of total importance**.
 
