@@ -1,0 +1,2 @@
+Dataset,Top-k winner,Full-baseline best,Brute-force best,Top-k in full-baseline best,Top-k in brute-force best,Regret vs full baseline (pp),Regret vs brute force (pp)
+C,E2M1,E2M1,E2M1,✅,✅,0.0,0.0

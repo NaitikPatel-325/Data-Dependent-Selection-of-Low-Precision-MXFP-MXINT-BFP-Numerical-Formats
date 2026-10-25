@@ -1,0 +1,2 @@
+Dataset,Retained terms (%),Skipped terms (%),Top-k time (s),Full baseline time (s),Brute-force time (s),Speed-up vs Full baseline (x),Speed-up vs Brute force (x)
+C,36.004375,63.995625,0.23136949999025092,0.2060063000099035,2.0996322000137297,0.8903779453151079,9.07480113023627

@@ -1,0 +1,2 @@
+Dataset,tau: Top-k vs Full baseline,tau: Top-k vs Brute force,tau: Full baseline vs Brute force,Exact rank match: Top-k = Full baseline,Exact rank match: Top-k = Brute force
+C,1.0,0.629940788348712,0.629940788348712,✅,❌
